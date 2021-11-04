@@ -5,8 +5,8 @@ Application gets large English text and creates summarization using extractive a
 ## About
 
 Microservice has two endpoints:
-* `POST /document`,
-* `GET /document/<document_id>`.
+* `POST /document`
+* `GET /document/<document_id>`
 
 ### `POST /document`
 
@@ -21,11 +21,11 @@ Returns `application/json` response with summarization created for the text stor
 ## Requirements
 
 Project was built with the below technologies:
-- flask
-- flask-migrate
-- flask-sqlalchemy
-- scikit-learn
-- spacy
+- [flask](https://flask.palletsprojects.com/)
+- [flask-migrate](https://flask-migrate.readthedocs.io/)
+- [flask-sqlalchemy](https://flask-sqlalchemy.palletsprojects.com/)
+- [scikit-learn](https://scikit-learn.org/)
+- [spacy](https://spacy.io/)
 
 ## Getting Started
 
