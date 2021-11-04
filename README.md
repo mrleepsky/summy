@@ -20,7 +20,7 @@ Returns `application/json` response with summarization created for the text stor
 
 ## Requirements
 
-Project was built with the below technologies:
+Project was built using Python 3.6 and below technologies:
 - [flask](https://flask.palletsprojects.com/)
 - [flask-migrate](https://flask-migrate.readthedocs.io/)
 - [flask-sqlalchemy](https://flask-sqlalchemy.palletsprojects.com/)
@@ -39,7 +39,7 @@ $ pipenv shell
 
 or `requirements.txt` file:
 ```
-$ python3 -m venv venv
+$ python -m venv venv
 $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
