@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# database
+*.db
+
+# editor
+.vscode/
+
+# pre-commit
+.pre-commit-config.yaml
